@@ -28,7 +28,7 @@ Jaeger also supports other client library like: Go, Node JS and Python.
 External monitoring only tells you the overall response time and number of invocations - no insight into the individual operations
 ```
 
-<img src="https://github.com/cloud-native-stack/distributed-tracing/blob/master/img/the-role-dt.png?raw=true" width='600' >
+<img src="https://raw.githubusercontent.com/elghoujdami-labs/distributed-tracing/master/img/the-role-dt.png" width='600' >
 
 
 
@@ -39,7 +39,7 @@ A Span represents a logical unit of work in the system that has an operation n
 
 A Trace is a data/execution path through the system, and can be thought of as a directed acyclic graph of spans.
 
-<img src="https://github.com/cloud-native-stack/Distributed-Tracing/blob/master/img/span-tarce.png?raw=true" width='400' >
+<img src="https://raw.githubusercontent.com/elghoujdami-labs/distributed-tracing/master/img/span-tarce.png" width='400' >
 
 ----------------------------
 ### Jaeger
