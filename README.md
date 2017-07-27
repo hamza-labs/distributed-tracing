@@ -125,6 +125,20 @@ var tracer = initTracer(config, options);
 
 - Ho to add Jaeger to your Docker-Compose 
 
+```
+    jaeger:
+        image: jaegertracing/all-in-one
+        ports:
+            - "16686:16686"
+            - "5778:5778"
+            - "14268:14268"
+            - "6831:6831/udp"
+            - "6832:6832/udp"
+            - "5775:5775/udp"
+        networks:
+            - cns-network
+```
+
 ```bash
   your_service:
     image: your_service_image
